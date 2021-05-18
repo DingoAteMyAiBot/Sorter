@@ -12,7 +12,7 @@ sorted2 = np.sort(sorted1)
 total=0
 finalmedian=0
 print(" ")
-print(sorted2)
+print("ORDERED: ", sorted2)
 print(" ")
 for i in sorted2:
         current = current + i
@@ -36,8 +36,9 @@ if (length1 % 2) == 0:
         
         
 else:
-        median = str(sorted2[length1/2])
-        print("MEDIAN:"+ str(median))
+        num3 = int(length1/2)
+        median = str(sorted2[num3])
+        print("MEDIAN: "+ str(median))
 print(" ")
 # Python program to find difference between two numbers
 
@@ -59,3 +60,5 @@ print(" ")
 print('LARGEST: ', num2)
 print(' ')
 print('SMALLEST: ', num1)
+print("")
+print("SUM: ", current)
