@@ -11,6 +11,7 @@ sorted1 = [int(numeric_string) for numeric_string in numbers]
 sorted2 = np.sort(sorted1)
 total=0
 finalmedian=0
+print(" ")
 print(sorted2)
 print(" ")
 for i in sorted2:
