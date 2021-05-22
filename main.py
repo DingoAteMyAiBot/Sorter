@@ -26,19 +26,7 @@ else:
 	print("MODE: N/A or 1")
 length1 = len(sorted2)
 print(" ")
-length2 = length1 - 1
-if (length1 % 2) == 0:
-	length2 = length2 / 2
-	floored = math.floor(length2)
-	ceiling = math.ceil(length2)
-	total = sorted2[floored] + sorted2[ceiling]
-	finalmedian = total / 2
-	print("MEDIAN: " + str(finalmedian))
-
-else:
-	num3 = int(length1 / 2)
-	median = str(sorted2[num3])
-	print("MEDIAN: " + str(median))
+print("MEDIAN:", np.median(sorted2))
 print(" ")
 # Python program to find difference between two numbers
 
